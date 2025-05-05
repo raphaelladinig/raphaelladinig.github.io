@@ -441,9 +441,9 @@ $=>$ entspricht Länge der Prä-mRNA; durchschnittliches Protein $~400$ AS nur m
 
 #image("assets/662 - Spleißen.jpg")
 
-// bilder noch einfügen
-// #image("assets/tafel1.jpg")
-// #image("assets/tafel2.jpg")
+#image("assets/tafel2.jpg")
+
+#image("assets/tafel1.jpg")
 
 === Translation - Proteinsynthese
 
@@ -461,4 +461,30 @@ $=>$ beladene tRNA nennt man Aminacyl-tRNA (AA-tRNA); AA-tRNA gibt dann beim Rib
 - tRNA $=>$ einzelner RNA-Strang mit ca. 80 Nucleotiden $->$ aufgrund von komplementären Basenfolgen innerhalb des tRNA-Strangs $=>$ Faltung über H-Brücken zu charakteristiscehr Form $=>$ *Kleeblattstruktur*
 
 #image("assets/663 tRNA.jpg")
+
+erster Erkennungsvorgang spezifisches Beladen durch die AA-tRNA-Synthetase $=>$ AA-tRNA
+
+zweiter Erkennungsvorgang: Bindung zw. Anticodon & Codon $=>$ tRNA + mRNA innerhalb des Ribosoms
+
+es gibt 61 AS-codierende CODONS (UAG, UAA, UGA -> Stopcodons) aber nur 45 tRNA-Typen $=>$ manche tRNA-Typen können mehrere Codons erkennen da die Ausbildung der dritten Basenpaarung (manchmal) nicht so bedeutend ist $=>$ diese Flexibilität der Basenpaarung $=>$ Wobbling
+
+(Bspw. muss es für CUU, CUC, CUA, CUG nicht 4 tRNA-Typen geben, da alle diese Codons Leucin codieren)
+
+Bsp: tRNA mit Anticodon 3'-UCU-5' kann sich mit 5'-AGA-3' & 5'-AGG-3' binden
+
+==== Ribosom:
+
+- vermittelt die spezifische Anlagerung von Anticodon & Codon
+- besteht aus kleiner & großer Proteinuntereinheit & rRNA
+- jeders Ribisom verfügt über 1 Ansatzstelle für mRNA & 3 für tRNA
+
+A-Stelle: Aminoacyl-tRNA-Stelle; hier findet die Codon-Anticodon-Kennung statt
+
+P-Stelle: Peptidyl-tRNA-Stelle; bindet die tRNA an der die bereits translatierte AS-Kette hängt; falls diese AS-Kette lang ist, ragt sie über den Austrittstunnel aus dem Ribosom
+
+E-Stelle: Exit-Stelle; entladene tRNA verlässt das Ribosom
+
+- R. katalysiert die Bildung der Peptidbindung
+
+#image("./assets/663 Ribosom.jpg")
 
