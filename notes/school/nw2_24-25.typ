@@ -488,3 +488,8 @@ E-Stelle: Exit-Stelle; entladene tRNA verlässt das Ribosom
 
 #image("./assets/663 Ribosom.jpg")
 
+analog zur Transkription kann die Translation in 3 Phasen unterteilt werden:
+
+Initiation, Elongation, Termination $->$ alle 3 benötigen Proteincofaktoren
+
+für Initiation & Elongation wird Energie aus der Hydrolyse von Guanosintriphosphat GTP benötigt.
