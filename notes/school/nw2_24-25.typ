@@ -48,7 +48,7 @@ energetisch:
 
 == Bakterienprodukte in saurem Milieu
 
-Bakterien sind sog. *Prokaryoten* (Zellen ohne echten Zellkern); ca. $1/10$ so groß wie Hefezellen; Bakterien werden oft nach äußerer Form unterschieden:
+Bakterien sind sog. *Prokaryoten* (Zellen ohne echten Zellkern); ca. $1 / 10$ so groß wie Hefezellen; Bakterien werden oft nach äußerer Form unterschieden:
 
 - *Kokken* $->$ kugelförmig
 - *Vibrionen* $->$ kommaförmig, zitternd
@@ -386,7 +386,7 @@ $->$ 3 Schritte:
 
 die gesamte DNA-Sequenz die im Prä-mRNA umgeschrieben wird = *Transkriptionseinheit*
 
-1) Initiation: 
+1) Initiation:
 
 Ansatzstelle für RNA-Poly an der DNA = Promotor; hier entwindet sich der DNA-Doppelstrang zu Einzelsträngen; Promotor beeinhaltet den *Transkriptionsstartpunkt* (die Beginn Base bzw. das Beginnnucleotid auf der DNA an dem die Transkription beginnt) & erstreckt sich noch einige Nucleotide weiter.
 
@@ -398,7 +398,7 @@ $->$ die spezifische Sequenz die den Beginn einer Promotorregion markiert: *TATA
 
 2) Elongation:
 
-RNA-Poly entspiralisiert und legt ca. 10-20 Basen der DNA zur Basenpaarung frei; 
+RNA-Poly entspiralisiert und legt ca. 10-20 Basen der DNA zur Basenpaarung frei;
 
 bei fortschreitender RNA-Synthese hängt der Prä-mRNA einzelstrang von der DNA-Matrize weg; Geschwindigkeit $~ 60 "Nucleotide/s"$; jedes Gen kann von mehreren RNA-Polys in Serie transkripiert werden $=>$ mehr Prä-mRNA $=>$ mehr Protein synthetisierbar;
 
@@ -417,19 +417,19 @@ Transkription bis Terminationsstelle auf der DNA erreicht wird. $=>$ transkripie
 Enzyme modifizieren die Prä-mRNA:
 
 1. an den Enden:
-  
-  - 5'-Ende: Kappe aus modifizierten Guaninnucleotiden gesetzt (*5'-Cap*)
-    
-    Aufgaben: 
-      - Schutz vor Hydrolasen im Cytoplasma
-      - Signalträger zum Andocken der Ribosomen
 
-  - 3'-Ende: Poly-A-Schwanz (~ 50-250 Nucleotide) wird gesetzt
-    
+  - 5'-Ende: Kappe aus modifizierten Guaninnucleotiden gesetzt (*5'-Cap*)
+
     Aufgaben:
-      - Schutz vor Hydrolasen
-      - vermutlich: Hilfe beim Andocken von Ribosomen
-      - Erleichterung des Exports der mRNA aus dem Kern
+    - Schutz vor Hydrolasen im Cytoplasma
+    - Signalträger zum Andocken der Ribosomen
+
+  - 3'-Ende: Poly-A-Schwanz ($~$ 50-250 Nucleotide) wird gesetzt
+
+    Aufgaben:
+    - Schutz vor Hydrolasen
+    - vermutlich: Hilfe beim Andocken von Ribosomen
+    - Erleichterung des Exports der mRNA aus dem Kern
 
 #image("assets/662 - RNA Prozessierung.jpg")
 
@@ -437,6 +437,59 @@ Enzyme modifizieren die Prä-mRNA:
 
 durchschnittliche Länge einer Transkriptionseinheit $~ 8000$ Nucleotide
 
-  $=>$ entspricht Länge der Prä-mRNA; durchschnittliches Protein $~400$ AS nur   MRNA der Länge $~ 1200$ nötig $=>$ aus der Prä-mRNA werden große Sequenzen herausgeschnitten
+$=>$ entspricht Länge der Prä-mRNA; durchschnittliches Protein $~400$ AS nur mRNA der Länge $~ 1200$ nötig $=>$ aus der Prä-mRNA werden große Sequenzen herausgeschnitten
 
 #image("assets/662 - Spleißen.jpg")
+
+#image("assets/tafel2.jpg")
+
+#image("assets/tafel1.jpg")
+
+=== Translation - Proteinsynthese
+
+Ribosom "liest" die mRNA ab; der Adapter zwischen CODON & AS $=>$ tRNA (transfer RNA); Aufgabe der tRNA: AS vom cytoplasmatischen AS-Reservoir zum tranlatierenden Ribosom zu transportieren; tRNA-Moleküle sind gleich gebaut & stellen die Verbindung zwischen Codon & As über die *Anticodon-Codon-Kennung* her
+
+$=>$ tRNA besitzt ein zum Codon komplementäres Anticodon
+
+==== Struktur & Funktion der tRNA:
+
+- tRNAs werden durch Transkription von tRNA-Genen gebildet $->$ Transport ins Cytoplasma
+$->$ Mehrfachverwendung im Zuge der Translation: spezifische Beladung der tRNA erfolgt durch die *Aminoacyl-tRNA-Synthetase (AA-tRNA-Synthetase)*
+
+$=>$ beladene tRNA nennt man Aminacyl-tRNA (AA-tRNA); AA-tRNA gibt dann beim Ribosom die AS ab $=>$ danach wieder Beladung
+
+- tRNA $=>$ einzelner RNA-Strang mit ca. 80 Nucleotiden $->$ aufgrund von komplementären Basenfolgen innerhalb des tRNA-Strangs $=>$ Faltung über H-Brücken zu charakteristiscehr Form $=>$ *Kleeblattstruktur*
+
+#image("assets/663 tRNA.jpg")
+
+erster Erkennungsvorgang spezifisches Beladen durch die AA-tRNA-Synthetase $=>$ AA-tRNA
+
+zweiter Erkennungsvorgang: Bindung zw. Anticodon & Codon $=>$ tRNA + mRNA innerhalb des Ribosoms
+
+es gibt 61 AS-codierende CODONS (UAG, UAA, UGA -> Stopcodons) aber nur 45 tRNA-Typen $=>$ manche tRNA-Typen können mehrere Codons erkennen da die Ausbildung der dritten Basenpaarung (manchmal) nicht so bedeutend ist $=>$ diese Flexibilität der Basenpaarung $=>$ Wobbling
+
+(Bspw. muss es für CUU, CUC, CUA, CUG nicht 4 tRNA-Typen geben, da alle diese Codons Leucin codieren)
+
+Bsp: tRNA mit Anticodon 3'-UCU-5' kann sich mit 5'-AGA-3' & 5'-AGG-3' binden
+
+==== Ribosom:
+
+- vermittelt die spezifische Anlagerung von Anticodon & Codon
+- besteht aus kleiner & großer Proteinuntereinheit & rRNA
+- jeders Ribisom verfügt über 1 Ansatzstelle für mRNA & 3 für tRNA
+
+A-Stelle: Aminoacyl-tRNA-Stelle; hier findet die Codon-Anticodon-Kennung statt
+
+P-Stelle: Peptidyl-tRNA-Stelle; bindet die tRNA an der die bereits translatierte AS-Kette hängt; falls diese AS-Kette lang ist, ragt sie über den Austrittstunnel aus dem Ribosom
+
+E-Stelle: Exit-Stelle; entladene tRNA verlässt das Ribosom
+
+- R. katalysiert die Bildung der Peptidbindung
+
+#image("./assets/663 Ribosom.jpg")
+
+analog zur Transkription kann die Translation in 3 Phasen unterteilt werden:
+
+Initiation, Elongation, Termination $->$ alle 3 benötigen Proteincofaktoren
+
+für Initiation & Elongation wird Energie aus der Hydrolyse von Guanosintriphosphat GTP benötigt.
