@@ -458,7 +458,7 @@ $->$ Mehrfachverwendung im Zuge der Translation: spezifische Beladung der tRNA e
 
 $=>$ beladene tRNA nennt man Aminacyl-tRNA (AA-tRNA); AA-tRNA gibt dann beim Ribosom die AS ab $=>$ danach wieder Beladung
 
-- tRNA $=>$ einzelner RNA-Strang mit ca. 80 Nucleotiden $->$ aufgrund von komplementären Basenfolgen innerhalb des tRNA-Strangs $=>$ Faltung über H-Brücken zu charakteristiscehr Form $=>$ *Kleeblattstruktur*
+- tRNA $=>$ einzelner RNA-Strang mit ca. 80 Nucleotiden $->$ aufgrund von komplementären Basenfolgen innerhalb des tRNA-Strangs $=>$ Faltung über H-Brücken zu charakteristischer Form $=>$ *Kleeblattstruktur*
 
 #image("assets/663 tRNA.jpg")
 
@@ -493,3 +493,22 @@ analog zur Transkription kann die Translation in 3 Phasen unterteilt werden:
 Initiation, Elongation, Termination $->$ alle 3 benötigen Proteincofaktoren
 
 für Initiation & Elongation wird Energie aus der Hydrolyse von Guanosintriphosphat GTP benötigt.
+
+==== Zusammenbau der ribossomalen Untereinheiten & Initiation der Translation
+
+Ausgangssituation: mRNA, kl. ribosomale Untereinheit, AA-tRNA mit Methionin beladen (passt zum Startcodon AUG) $=>$ Initiator - $"tRNA"_"Met"$
+
+Ablauf: kl. Untereinheit bindet die $"tRNA"_"Met"$ & erkennt die 5'-Cap-Struktur der mRNA als Eintrittsstelle; nun läuft die kl. Untereinheit so lange Richtung 3' auf mRNA hinab bis das Startcodon AUG mit dem Anticodon der mRNA bindet $=>$ Startsignal für die Translation $=>$ nun folgt die Anlagerung der großen Untereinheit $=>$ $"tRNA"_"Met"$ in P-Stelle $=>$ Initiations-Translationskomplex fertig benötigt werden dazu:
+
+- Energie aus GTP
+- Helfer Initiationsfaktoren
+
+==== Elongation
+
+auch hier Helfer Elongationsfaktoren beteiligt
+
+#pagebreak()
+
+==== Termination der Translation
+
+läuft so lange weiter, bis eines der 3 Stopcodons (UGA, UAA, UAG) in der A-Stelle zu liegen kommt. Protein Freisetzungsfaktor bindet ans Stopcodon in der A-Stelle $=>$ dieses katalysiert die Hydrolyse von AS-Kette & tRNA in der P-Stelle. AS-Kette entweicht über Austrittstunnel; danach zerfällt der Translationsapparat unter GTP-Verbrauch.
