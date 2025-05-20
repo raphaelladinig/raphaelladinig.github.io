@@ -2,4 +2,3 @@
 
 ./nw2_24-25.typ
 ./amec_24-25.typ
-./diplomarbeit.md
